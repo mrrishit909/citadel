@@ -1,0 +1,30 @@
+{
+ "openapi": "3.1.0",
+ "info": {
+  "title": "CITADEL API",
+  "version": "1.0.0",
+  "description": "Synthetic venue crowd-flow demo data."
+ },
+ "paths": {
+  "/v1/gates": {
+   "get": {
+    "summary": "Gates with flow and closed state at ?t="
+   }
+  },
+  "/v1/log": {
+   "get": {
+    "summary": "Operations log"
+   }
+  },
+  "/v1/log/{id}/notes": {
+   "post": {
+    "summary": "Add a note; requires Idempotency-Key"
+   }
+  },
+  "/v1/concourse/live": {
+   "get": {
+    "summary": "WebSocket: replays the event timeline (query speed=1..60)"
+   }
+  }
+ }
+}

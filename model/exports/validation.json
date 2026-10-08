@@ -1,0 +1,21 @@
+{
+ "gate.glb": {
+  "tris": 96,
+  "bytes": 9576,
+  "materials": [
+   "SafetyLime",
+   "Steel"
+  ],
+  "missing": [],
+  "orphans": []
+ },
+ "human-glyph.glb": {
+  "tris": 176,
+  "bytes": 7624,
+  "materials": [
+   "HumanWhite"
+  ],
+  "missing": [],
+  "orphans": []
+ }
+}
